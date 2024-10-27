@@ -34,6 +34,15 @@ public class TemplateActivity extends AppCompatActivity {
             }
         });
 
+        //修正ボタンが押されたとき
+        findViewById(R.id.taskcor_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //インテントの追加（これが遷移用ロジックです）
+                Intent intent = new Intent(TemplateActivity.this, calender_check.class);
+                startActivity(intent);
+            }
+        });
         //もどるボタンを押した時
         findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
             @Override

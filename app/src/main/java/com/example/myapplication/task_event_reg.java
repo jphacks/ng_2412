@@ -43,6 +43,8 @@ public class task_event_reg extends AppCompatActivity {
             }
         });
 
+
+
         //もどるボタンを押した時
         findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
             @Override
