@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/tsaknyan1" />
+        app:srcCompat="@drawable/tasukunyana7" />
 
     <View
         android:id="@+id/opsq_view2"
@@ -35,7 +35,7 @@
         android:id="@+id/opsq_view"
         android:layout_width="341dp"
         android:layout_height="105dp"
-        android:background="#9CD8A8A8"
+        android:background="#D2FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.228"
@@ -60,16 +60,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="90dp"
-        android:layout_height="48dp"
-        android:text="開始日を入れてね"
+        android:layout_width="259dp"
+        android:layout_height="97dp"
+        android:text="作業を開始できる日をおしえてにゃん。"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806" />
+        app:layout_constraintVertical_bias="0.865" />
 
     <Button
         android:id="@+id/back_button"

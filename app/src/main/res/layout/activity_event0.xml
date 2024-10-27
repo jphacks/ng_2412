@@ -16,25 +16,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/tsaknyan1" />
+        app:srcCompat="@drawable/tasukunyan_title" />
 
     <View
         android:id="@+id/opsq_view2"
-        android:layout_width="344dp"
-        android:layout_height="215dp"
+        android:layout_width="378dp"
+        android:layout_height="278dp"
         android:background="#6FFFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.507" />
+        app:layout_constraintVertical_bias="0.035" />
 
     <View
         android:id="@+id/opsq_view"
         android:layout_width="344dp"
         android:layout_height="175dp"
-        android:background="#9CD8A8A8"
+        android:background="#D2FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.404"
@@ -48,10 +48,10 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteY="200dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/event_button0"
@@ -68,16 +68,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="189dp"
-        android:layout_height="58dp"
-        android:text="イベントを入力してね！"
+        android:layout_width="299dp"
+        android:layout_height="73dp"
+        android:text="イベントの日を選んでにゃー"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719" />
+        app:layout_constraintVertical_bias="0.724" />
 
     <Button
         android:id="@+id/back_button"
