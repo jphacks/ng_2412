@@ -1,6 +1,9 @@
 package com.example.myapplication;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,29 @@ public class TemplateActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        //新規ボタンを押した時
+        findViewById(R.id.new_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //インテントの追加（これが遷移用ロジックです）
+                Intent intent = new Intent(TemplateActivity.this, task_event_reg.class);
+                startActivity(intent);
+            }
+        });
+
+        //もどるボタンを押した時
+        findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //インテントの追加（これが遷移用ロジックです）
+                Intent intent = new Intent(TemplateActivity.this, title.class);
+                startActivity(intent);
+            }
+        });
+
+
+
     }
+
 }
