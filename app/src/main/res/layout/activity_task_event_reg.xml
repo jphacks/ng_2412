@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TemplateActivity">
+    tools:context=".task_event_reg">
 
     <ImageView
         android:id="@+id/imageView"
@@ -13,10 +13,9 @@
         android:layout_height="731dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/tsaknyan1" />
 
     <View
@@ -26,9 +25,10 @@
         android:background="#6FFFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507" />
 
     <View
         android:id="@+id/opsq_view"
@@ -43,30 +43,30 @@
         app:layout_constraintVertical_bias="0.821" />
 
     <Button
-        android:id="@+id/new_button"
+        android:id="@+id/task_button"
         android:layout_width="161dp"
         android:layout_height="72dp"
-        android:text="新規"
+        android:text="タスク"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417" />
+        app:layout_constraintVertical_bias="0.418" />
 
     <Button
-        android:id="@+id/taskcor_button"
+        android:id="@+id/event_button"
         android:layout_width="161dp"
         android:layout_height="72dp"
-        android:text="タスク修正"
+        android:text="イベント"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.569" />
+        app:layout_constraintVertical_bias="0.567" />
 
     <TextView
         android:id="@+id/textView"
@@ -93,5 +93,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.963" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
