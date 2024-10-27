@@ -60,7 +60,7 @@
         android:id="@+id/textView"
         android:layout_width="90dp"
         android:layout_height="48dp"
-        android:text="セリフ"
+        android:text="何日かかるか入力してね"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
