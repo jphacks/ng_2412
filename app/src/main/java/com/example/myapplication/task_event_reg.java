@@ -33,6 +33,16 @@ public class task_event_reg extends AppCompatActivity {
             }
         });
 
+        //イベントボタンを押したとき
+        findViewById(R.id.event_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //インテントの追加（これが遷移用ロジックです）
+                Intent intent = new Intent(task_event_reg.this, event_0.class);
+                startActivity(intent);
+            }
+        });
+
         //もどるボタンを押した時
         findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
             @Override

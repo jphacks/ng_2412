@@ -33,7 +33,7 @@ public class task4 extends AppCompatActivity {
             }
         });
 
-        //もどるボタンを押した時
+        //ないボタン
         findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,6 +41,24 @@ public class task4 extends AppCompatActivity {
                 Intent intent = new Intent(task4.this, task3.class);
                 startActivity(intent);
             }
-        });
+
+
+
+        }
+        );
+        //ないと押されたとき
+        findViewById(R.id.no_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //インテントの追加（これが遷移用ロジックです）
+                Intent intent = new Intent(task4.this, calender_check.class);
+                startActivity(intent);
+            }
+
+
+
+        }
+        );
+
     }
 }
